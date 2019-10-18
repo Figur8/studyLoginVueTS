@@ -1,47 +1,78 @@
-<template>
+<template for="r in result">
     <Page>
         <FlexboxLayout class="page">
             <StackLayout class="form">
                 <Image
                         src="https://www.carnegietechnologies.com/sites/ct/assets/image/logo-octopus.png"
                         loadMode="async" stretch="aspectFit"></Image>
-
                 <StackLayout class="input-field">
                     <TextField v-model="email" hint="email" class="input" keyboardType="email"
                                autocorrect="false" autocapitalizationType="none" >
                     </TextField>
-                    <Label class="message" :text="email"/>
+                    <Label class="message" :text="result"/>
                 </StackLayout>
 
                 <StackLayout class="input-field">
-                    <TextField hint="Password" secure="true" class="input">
+                    <TextField v-model="password"  hint="Password" secure="true" class="input">
                     </TextField>
                 </StackLayout>
                 <Button text="Log In" class="btn btn-primary" @tap="clientLogin" ></Button>
-                <Button text="Log In" class="btn btn-primary"
-                        @tap="goTo"></Button>
+                <Button text="Home" class="btn btn-primary" @tap="goTo" ></Button>
             </StackLayout>
+
         </FlexboxLayout>
+
     </Page>
 </template>
 
 <script lang="ts">
-
     import Vue from 'nativescript-vue';
     import {Component} from 'vue-property-decorator';
-
-    import Home from "./Home";
     import client from "@/lib/fusionAuthClientInstance";
+    import Home from "@/components/Home.vue";
+    import { topmost } from 'tns-core-modules/ui/frame';
+
+    const home = {
+        template: `
+    <Page>
+       <ActionBar title="Home" class="action-bar" />
+        <ScrollView>
+            <StackLayout class="home-panel">
+                <Label>Funciona</Label>
+            </StackLayout>
+        </ScrollView>
+    </Page>
+  `
+    };
+
+    const secure = {
+        template: `
+    <Page>
+       <ActionBar title="Second" class="action-bar" />
+        <ScrollView>
+            <StackLayout class="home-panel">
+                <Label>Second action action</Label>
+            </StackLayout>
+        </ScrollView>
+    </Page>
+  `
+    };
 
     @Component
     export default class App extends Vue {
-        public login: string = 'ismaelteste';
-        public password: string = '123456789';
-        public email: string = 'adasdasd';
+        public email: string ;
+        public password: string;
         private request: Object;
+        private result: JSON = [];
+        components: {
+            Home
+        }
+
+        goTo(){
+            this.$navigateTo(home);
+        };
 
         requestProvider(){
-
             this.request =  {
                 "loginId": this.email,
                 "password": this.password,
@@ -49,23 +80,24 @@
             };
             return this.request;
         };
-
         clientLogin() {
-
+            // this.$navigateTo(secure);
             return client.login(this.requestProvider())
-                .then(this.handleResponse, this.handleErrorResponse);
+                .then(this.handleResponse, this.handleErrorResponse)
+                .then(response => {
+                    this.result = response;
+                    console.log(this.result);
+                });
         };
         handleResponse(clientResponse) {
-
-            console.log(JSON.stringify(clientResponse, null, 2));
+            return JSON.stringify(clientResponse);
         };
         handleErrorResponse(clientResponse) {
-            console.log("passei aqui com erro");
-            console.error(JSON.stringify(clientResponse, null, 2));
+            return JSON.stringify(clientResponse);
         };
     }
-</script>
 
+</script>
 <style scoped>
     ActionBar {
         background-color: #53ba82;
