@@ -29,7 +29,6 @@
     import {Component} from 'vue-property-decorator';
     import client from "@/lib/fusionAuthClientInstance";
     import Home from "@/components/Home.vue";
-    import { topmost } from 'tns-core-modules/ui/frame';
 
     const home = {
         template: `
@@ -59,9 +58,8 @@
 
     export interface result {
         statusCode: string,
-        response: any,
+        response: JSON,
         registration: Array<string>,
-        user: string,
     }
 
     @Component
@@ -70,7 +68,9 @@
         public email: string ;
         public password: string;
         private request: Object;
-        private statusCode: string;
+        private roles: JSON;
+        private user: JSON;
+
 
         goTo(){
             this.$navigateTo(home);
@@ -84,22 +84,34 @@
             };
             return this.request;
         };
+
+        testFusionAuthMethods() {
+            return client.searchUsers("901904d8-5eeb-441f-a80e-8c8c595825b5")
+                .then(response => {
+                    console.log(response);
+                });
+        };
+
         clientLogin() {
             // this.$navigateTo(secure);
             return client.login(this.requestProvider())
                 .then(this.handleResponse, this.handleErrorResponse)
                 .then(response => {
-                    this.result = JSON.parse(response);
-                    this.statusCode = this.result;
-                    console.log(this.result.response);
+                    this.result = response;
+                    this.user = this.result.response;
+                    this.roles = this.user.user.registrations;
+                    this.testFusionAuthMethods();
+                    console.log(this.roles);
                 });
         };
 
+
+
         handleResponse(clientResponse) {
-            return JSON.stringify(clientResponse);
+            return clientResponse;
         };
         handleErrorResponse(clientResponse) {
-            return JSON.stringify(clientResponse);
+            return clientResponse;
         };
     }
 
