@@ -18,9 +18,7 @@
                 <Button text="Log In" class="btn btn-primary" @tap="clientLogin" ></Button>
                 <Button text="Home" class="btn btn-primary" @tap="goTo" ></Button>
             </StackLayout>
-
         </FlexboxLayout>
-
     </Page>
 </template>
 
@@ -29,19 +27,6 @@
     import {Component} from 'vue-property-decorator';
     import client from "@/lib/fusionAuthClientInstance";
     import Home from "@/components/Home.vue";
-
-    const home = {
-        template: `
-    <Page>
-       <ActionBar title="Home" class="action-bar" />
-        <ScrollView>
-            <StackLayout class="home-panel">
-                <Label>Funciona</Label>
-            </StackLayout>
-        </ScrollView>
-    </Page>
-  `
-    };
 
     const secure = {
         template: `
@@ -73,7 +58,7 @@
 
 
         goTo(){
-            this.$navigateTo(home);
+            this.$navigateTo(Home);
         };
 
         requestProvider(){
@@ -99,9 +84,9 @@
                 .then(response => {
                     this.result = response;
                     this.user = this.result.response;
-                    this.roles = this.user.user.registrations;
+                    this.roles = this.user.user.registrations
                     this.testFusionAuthMethods();
-                    console.log(this.roles);
+                    console.log(this.roles[0].roles);
                 });
         };
 
@@ -112,6 +97,10 @@
         };
         handleErrorResponse(clientResponse) {
             return clientResponse;
+        };
+
+        components: {
+            Home,
         };
     }
 
