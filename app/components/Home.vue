@@ -4,11 +4,10 @@
         <ScrollView>
             <StackLayout class="home-panel">
                 <Button text="Get My Location" @tap="getLocation" class="btn btn-primary" />
-                <Button text="Secure" class="btn btn-primary" @tap="goToTest" ></Button>
+                <Button text="Secure" class="btn btn-primary" @tap="goToSecure" ></Button>
 
                 <Label :text="'Latitude: ' + lat" class="lbl" />
                 <Label :text="'Longitude: ' + lon" class="lbl" />
-
             </StackLayout>
         </ScrollView>
     </Page>
@@ -16,7 +15,7 @@
 
 <script lang="ts">
     import Vue from 'nativescript-vue';
-    import {Component} from 'vue-property-decorator';
+    import {Component, Prop} from 'vue-property-decorator';
     import * as geolocation from 'nativescript-geolocation';
     import { Accuracy } from "tns-core-modules/ui/enums";
     import Secure from "@/components/Secure.vue";
@@ -28,6 +27,12 @@
         private speed: string = "";
         private addr: string = "";
 
+        @Prop() private nome: string;
+
+        goToSecure(){
+            console.log(this.name);
+        }
+
         getLocation() {
             geolocation.enableLocationRequest();
             geolocation.getCurrentLocation({ desiredAccuracy: Accuracy.high, maximumAge: 5000, timeout: 20000 })
@@ -37,10 +42,22 @@
                 });
         };
 
-        goToTest(){
-            this.$navigateTo(Secure);
+        goToTest(roleInFusionAuth: string){
+            if(roleInFusionAuth == "view-security-message") {
+                this.$navigateTo(Secure);
+            }else{
+                alert({
+                    title: "TRETA",
+                    message: "Usuário sem Permissão",
+                    okButtonText: "OK"
+                }).then(() => {
+                    console.log("Alert dialog closed");
+                });
+            };
         }
-
+        props:{
+            nome: string,
+        };
         components: {
             Secure,
         };

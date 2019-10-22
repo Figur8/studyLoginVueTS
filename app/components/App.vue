@@ -16,7 +16,6 @@
                     </TextField>
                 </StackLayout>
                 <Button text="Log In" class="btn btn-primary" @tap="clientLogin" ></Button>
-                <Button text="Home" class="btn btn-primary" @tap="goTo" ></Button>
             </StackLayout>
         </FlexboxLayout>
     </Page>
@@ -24,7 +23,7 @@
 
 <script lang="ts">
     import Vue from 'nativescript-vue';
-    import {Component} from 'vue-property-decorator';
+    import {Component, Prop} from 'vue-property-decorator';
     import client from "@/lib/fusionAuthClientInstance";
     import Home from "@/components/Home.vue";
 
@@ -50,15 +49,26 @@
     @Component
     export default class App extends Vue {
 
-        public email: string ;
-        public password: string;
+        private email: string ;
+        private password: string;
         private request: Object;
         private roles: JSON;
-        private user: JSON;
+        private user: any;
+        public post: string;
 
+        goTo(roleInFusionAuth){
+            if(roleInFusionAuth == "view-security-message"){
+                this.$navigateTo(Home,  { props: {nome : "oi",}});
+            }else{
+                alert({
+                    title: "TRETA",
+                    message: "Usuário ou senha incorretos",
+                    okButtonText: "try Again"
+                }).then(() => {
+                    console.log("Alert dialog closed");
+                });
+            };
 
-        goTo(){
-            this.$navigateTo(Home);
         };
 
         requestProvider(){
@@ -84,9 +94,12 @@
                 .then(response => {
                     this.result = response;
                     this.user = this.result.response;
-                    this.roles = this.user.user.registrations
-                    this.testFusionAuthMethods();
-                    console.log(this.roles[0].roles[0]);
+                    this.roles = this.user.user.registrations;
+                    this.post = this.roles[0].roles[0];
+                })
+                .then(responsibility =>{
+                    console.log(this.post);
+                    this.goTo(this.roles[0].roles[0]);
                 });
         };
 
