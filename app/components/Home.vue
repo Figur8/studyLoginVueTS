@@ -4,6 +4,7 @@
         <ScrollView>
             <StackLayout class="home-panel">
                 <Button text="Get My Location" @tap="getLocation" class="btn btn-primary" />
+                <Button text="Secure" class="btn btn-primary" @tap="goToTest" ></Button>
 
                 <Label :text="'Latitude: ' + lat" class="lbl" />
                 <Label :text="'Longitude: ' + lon" class="lbl" />
@@ -18,6 +19,7 @@
     import {Component} from 'vue-property-decorator';
     import * as geolocation from 'nativescript-geolocation';
     import { Accuracy } from "tns-core-modules/ui/enums";
+    import Secure from "@/components/Secure.vue";
 
     @Component
     export default class Home extends Vue {
@@ -33,7 +35,16 @@
                     this.lat = res.latitude;
                     this.lon = res.longitude;
                 });
+        };
+
+        goToTest(){
+            this.$navigateTo(Secure);
         }
+
+        components: {
+            Secure,
+        };
+
     }
 </script>
 

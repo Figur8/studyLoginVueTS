@@ -1,0 +1,19 @@
+<template>
+    <Page>
+
+    </Page>
+</template>
+
+<script lang="ts">
+    import Vue from 'nativescript-vue';
+    import {Component} from 'vue-property-decorator';
+
+    @Component
+    export default class Secure extends Vue {
+
+    }
+</script>
+
+<style scoped>
+
+</style>

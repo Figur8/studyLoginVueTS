@@ -86,7 +86,7 @@
                     this.user = this.result.response;
                     this.roles = this.user.user.registrations
                     this.testFusionAuthMethods();
-                    console.log(this.roles[0].roles);
+                    console.log(this.roles[0].roles[0]);
                 });
         };
 
