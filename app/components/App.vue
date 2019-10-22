@@ -9,7 +9,6 @@
                     <TextField v-model="email" hint="email" class="input" keyboardType="email"
                                autocorrect="false" autocapitalizationType="none" >
                     </TextField>
-                    <Label class="message" :text="result"/>
                 </StackLayout>
 
                 <StackLayout class="input-field">
@@ -58,15 +57,20 @@
   `
     };
 
+    export interface result {
+        statusCode: string,
+        response: any,
+        registration: Array<string>,
+        user: string,
+    }
+
     @Component
     export default class App extends Vue {
+
         public email: string ;
         public password: string;
         private request: Object;
-        private result: JSON = [];
-        components: {
-            Home
-        }
+        private statusCode: string;
 
         goTo(){
             this.$navigateTo(home);
@@ -85,10 +89,12 @@
             return client.login(this.requestProvider())
                 .then(this.handleResponse, this.handleErrorResponse)
                 .then(response => {
-                    this.result = response;
-                    console.log(this.result);
+                    this.result = JSON.parse(response);
+                    this.statusCode = this.result;
+                    console.log(this.result.response);
                 });
         };
+
         handleResponse(clientResponse) {
             return JSON.stringify(clientResponse);
         };
