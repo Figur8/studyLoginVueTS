@@ -57,10 +57,10 @@
 
 
         goTo(roleInFusionAuth){
-            if(roleInFusionAuth == "view-security-message"){
+            if(roleInFusionAuth == "view-security-message" || roleInFusionAuth == "admin"){
                 this.$navigateTo(Home, {
                     props: {
-                        nome: this.post,
+                        role: this.post,
                     }
                 });
             }else{

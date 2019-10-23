@@ -19,6 +19,7 @@
     import * as geolocation from 'nativescript-geolocation';
     import { Accuracy } from "tns-core-modules/ui/enums";
     import Secure from "@/components/Secure.vue";
+    import * as utils from "tns-core-modules/utils/utils";
 
     @Component
     export default class Home extends Vue {
@@ -26,10 +27,20 @@
         private lon: string = "";
         private speed: string = "";
         private addr: string = "";
-        @Prop() public nome: string;
+        @Prop() public role: string;
 
         goToSecure(){
-            console.log(this.nome);
+            if(this.role == "admin") {
+                this.$navigateTo(Secure);
+            }else{
+                alert({
+                    title: "User Not is admin",
+                    message: "volte osado",
+                    okButtonText: "exit"
+                }).then(() => {
+                    console.log("Alert dialog closed");
+                });
+            };
         }
 
         getLocation() {
@@ -38,6 +49,7 @@
                 .then(res => {
                     this.lat = res.latitude;
                     this.lon = res.longitude;
+                    utils.openUrl("https://www.google.com/maps/place/" + this.lat +','+ this.lon )
                 });
         };
 
