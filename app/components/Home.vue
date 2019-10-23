@@ -26,11 +26,10 @@
         private lon: string = "";
         private speed: string = "";
         private addr: string = "";
-
-        @Prop() private nome: string;
+        @Prop() public nome: string;
 
         goToSecure(){
-            console.log(this.name);
+            console.log(this.nome);
         }
 
         getLocation() {

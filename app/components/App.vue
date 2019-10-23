@@ -48,17 +48,21 @@
 
     @Component
     export default class App extends Vue {
-
         private email: string ;
         private password: string;
         private request: Object;
         private roles: JSON;
-        private user: any;
+        private user: JSON;
         public post: string;
+
 
         goTo(roleInFusionAuth){
             if(roleInFusionAuth == "view-security-message"){
-                this.$navigateTo(Home,  { props: {nome : "oi",}});
+                this.$navigateTo(Home, {
+                    props: {
+                        nome: this.post,
+                    }
+                });
             }else{
                 alert({
                     title: "TRETA",
