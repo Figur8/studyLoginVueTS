@@ -27,19 +27,6 @@
     import client from "@/lib/fusionAuthClientInstance";
     import Home from "@/components/Home.vue";
 
-    const secure = {
-        template: `
-    <Page>
-       <ActionBar title="Second" class="action-bar" />
-        <ScrollView>
-            <StackLayout class="home-panel">
-                <Label>Second action action</Label>
-            </StackLayout>
-        </ScrollView>
-    </Page>
-  `
-    };
-
     export interface result {
         statusCode: string,
         response: JSON,
