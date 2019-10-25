@@ -46,6 +46,7 @@
         private user: JSON;
         public post: string;
 
+        
         goTo(roleInFusionAuth){
             if(roleInFusionAuth == "view-security-message" || roleInFusionAuth == "admin"){
                 this.$navigateTo(Home, {
