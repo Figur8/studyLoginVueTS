@@ -20,6 +20,10 @@
         "directory": "../../node_modules/nativescript-socketio"
     },
     {
+        "name": "nativescript-telephony",
+        "directory": "../../node_modules/nativescript-telephony"
+    },
+    {
         "name": "nativescript-theme-core",
         "directory": "../../node_modules/nativescript-theme-core"
     },
