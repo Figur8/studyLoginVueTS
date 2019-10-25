@@ -1,0 +1,1 @@
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/metadata

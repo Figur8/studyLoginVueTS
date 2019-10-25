@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+	package
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:70-121
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:1-123
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_fontawesome/src/main/AndroidManifest.xml

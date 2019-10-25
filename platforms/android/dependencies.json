@@ -1,0 +1,50 @@
+[
+    {
+        "name": "nativescript-fontawesome",
+        "directory": "../../node_modules/nativescript-fontawesome"
+    },
+    {
+        "name": "nativescript-fonticon",
+        "directory": "../../node_modules/nativescript-fonticon"
+    },
+    {
+        "name": "nativescript-geolocation",
+        "directory": "../../node_modules/nativescript-geolocation"
+    },
+    {
+        "name": "nativescript-local-notifications",
+        "directory": "../../node_modules/nativescript-local-notifications"
+    },
+    {
+        "name": "nativescript-socketio",
+        "directory": "../../node_modules/nativescript-socketio"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "nativescript-toasty",
+        "directory": "../../node_modules/nativescript-toasty"
+    },
+    {
+        "name": "nativescript-vue",
+        "directory": "../../node_modules/nativescript-vue"
+    },
+    {
+        "name": "nativescript-vue-router-ns",
+        "directory": "../../node_modules/nativescript-vue-router-ns"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "../../node_modules/nativescript-permissions"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

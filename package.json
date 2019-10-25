@@ -17,6 +17,8 @@
   "dependencies": {
     "@fusionauth/typescript-client": "^1.10.1",
     "@vue/devtools": "^5.0.6",
+    "nativescript-fontawesome": "^1.0.0",
+    "nativescript-fonticon": "^2.0.0",
     "nativescript-geolocation": "^5.1.0",
     "nativescript-local-notifications": "^4.0.1",
     "nativescript-socketio": "^3.2.1",

@@ -49,7 +49,7 @@
                 .then(res => {
                     this.lat = res.latitude;
                     this.lon = res.longitude;
-                    utils.openUrl("https://www.google.com/maps/place/" + this.lat +','+ this.lon )
+                    utils.openUrl("https://www.google.com/maps/place/" +this.lat +','+ this.lon )
                 });
         };
 
