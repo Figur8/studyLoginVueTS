@@ -20,6 +20,7 @@
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
 	},
 	"nativescript-telephony": {
-		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-telephony/platforms/android/AndroidManifest.xml": "19bc7f757ef5ea28b0f7503973cd61b1a16cfbb5"
+		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-telephony/platforms/android/AndroidManifest.xml": "19bc7f757ef5ea28b0f7503973cd61b1a16cfbb5",
+		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-telephony/platforms/android/nativescript_telephony.aar": "57953fff35957bbf33b1af065c8edf1796526a1e"
 	}
 }

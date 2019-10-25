@@ -26,7 +26,7 @@
     import client from "@/lib/fusionAuthClientInstance";
     import Home from "@/components/Home.vue";
     import { Fontawesome } from 'nativescript-fontawesome';
-    import {Telephony} from 'nativescript-telephony'
+
 
     export interface result {
         statusCode: string,
@@ -37,13 +37,7 @@
     @Component
     export default class App extends Vue {
         constructor() {
-            Telephony().then(function(resolved) {
-                console.log('resolved >', resolved)
-                console.dir(resolved);
-            }).catch(function(error) {
-                console.error('error >', error)
-                console.dir(error);
-            })
+
             Fontawesome.init();
         }
 
