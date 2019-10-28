@@ -51,3 +51,4 @@
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/2bbff18c83b7688c868b75f5e91ba0b9/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/acd2a2bf5a9636b3bb3b65f379f55318/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/e9f03a93a9fd56fd2d5d86e3a91eac69/okhttp-3.8.1.jar
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/javac/debug

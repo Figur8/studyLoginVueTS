@@ -32,7 +32,7 @@
             LocalNotifications.schedule(
                 [{
                     id: 1,
-                    title: 'Nova mensagem em nMobile',
+                    title: 'Este é seu imei',
                     subtitle: this.imei,
                     body: imei,
                     bigTextStyle: false,

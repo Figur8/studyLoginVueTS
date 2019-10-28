@@ -1,4 +1,4 @@
-#Fri Oct 25 15:45:39 BRT 2019
+#Mon Oct 28 09:48:37 BRT 2019
 base.0=/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
