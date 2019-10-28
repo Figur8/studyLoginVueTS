@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:70-119
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:1-4:12
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:3:3-72
+	android:name
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:3:20-70
+uses-sdk
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
