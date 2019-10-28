@@ -428,6 +428,10 @@
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-xhdpi/octopus.png"
+    },
+    {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
@@ -536,12 +540,12 @@
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
-        "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
+        "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable/tooltip_frame_dark.xml"
     },
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
@@ -1080,6 +1084,10 @@
         "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-mdpi/logo.png"
     },
     {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-xxxhdpi/octopus.png"
+    },
+    {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/4b572913f1a424e7576b45966b745c44/material-1.0.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
@@ -1224,6 +1232,10 @@
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/4b572913f1a424e7576b45966b745c44/material-1.0.0/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
     {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-ldpi/octopus.png"
+    },
+    {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -1272,12 +1284,20 @@
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-hdpi/octopus.png"
+    },
+    {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_mtrl_tabs_default_indicator.xml.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/4b572913f1a424e7576b45966b745c44/material-1.0.0/res/drawable/mtrl_tabs_default_indicator.xml"
     },
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-mdpi/octopus.png"
     },
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
@@ -1642,6 +1662,10 @@
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-xxhdpi/octopus.png"
     },
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -2034,6 +2058,10 @@
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
         "source": "/home/ismaelc/.gradle/caches/transforms-2/files-2.1/8a90935574f82694cec42fb7c78743b1/appcompat-1.0.2/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-nodpi_octopus.png.flat",
+        "source": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/res/drawable-nodpi/octopus.png"
     },
     {
         "merged": "/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
