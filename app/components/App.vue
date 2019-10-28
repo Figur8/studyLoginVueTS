@@ -27,6 +27,7 @@
     import Home from "@/components/Home.vue";
     import { Fontawesome } from 'nativescript-fontawesome';
 
+
     export interface result {
         statusCode: string,
         response: JSON,
@@ -36,6 +37,7 @@
     @Component
     export default class App extends Vue {
         constructor() {
+
             Fontawesome.init();
         }
 
@@ -45,6 +47,7 @@
         private roles: JSON;
         private user: JSON;
         public post: string;
+
 
         goTo(roleInFusionAuth){
             if(roleInFusionAuth == "view-security-message" || roleInFusionAuth == "admin"){

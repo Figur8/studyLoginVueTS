@@ -17,6 +17,7 @@ MERGED from [:nativescript_fontawesome:] /home/ismaelc/.gradle/caches/transforms
 MERGED from [:nativescript_geolocation:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/22b511c446ff209180865521dd38294c/nativescript_geolocation/AndroidManifest.xml:2:1-11:12
 MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:2:1-36:12
 MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/bf93bd73af1c6013853f445305c8f2cf/fancylogger-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:2:1-11:12
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.media:media:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5036e040bfb2ed21141db5907dc80a84/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -178,6 +179,8 @@ MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/
 MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/bf93bd73af1c6013853f445305c8f2cf/fancylogger-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/bf93bd73af1c6013853f445305c8f2cf/fancylogger-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:7:5-47
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.media:media:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/AndroidManifest.xml:20:5-44
@@ -249,6 +252,7 @@ INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/p
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
@@ -312,3 +316,7 @@ action#android.intent.action.BOOT_COMPLETED
 ADDED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:17-79
 	android:name
 		ADDED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:25-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:9:22-72

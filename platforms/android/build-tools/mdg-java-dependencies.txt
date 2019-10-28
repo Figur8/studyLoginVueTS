@@ -11,6 +11,7 @@
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/00483f5f29fc24fa68dcaa59f831f52a/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/d40251c6a744db581c4e7c15ef6601f3/annotation-1.0.0.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/9cbca38726270865e6921050032c7c6d/classes.jar
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/4f46cedaccfacb971836df2ae27a6050/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/6a42ab5717afcd9a64832c33ca36d584/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/c30413b3c20a615d477e89cec1676887/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/11e34de2cff21a36755f5384d8bf26a8/classes.jar
@@ -50,4 +51,3 @@
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/2bbff18c83b7688c868b75f5e91ba0b9/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/acd2a2bf5a9636b3bb3b65f379f55318/classes.jar
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/exploded-dependencies/e9f03a93a9fd56fd2d5d86e3a91eac69/okhttp-3.8.1.jar
-/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/build/intermediates/javac/debug

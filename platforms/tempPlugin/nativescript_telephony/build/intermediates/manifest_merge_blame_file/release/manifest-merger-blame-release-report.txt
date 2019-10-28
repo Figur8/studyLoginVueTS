@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.nativescript_telephony"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk android:targetSdkVersion="26" />
+7-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+9-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:3:3-72
+9-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/tempPlugin/nativescript_telephony/src/main/AndroidManifest.xml:3:20-70
+10
+11</manifest>
