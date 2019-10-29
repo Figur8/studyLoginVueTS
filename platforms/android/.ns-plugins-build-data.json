@@ -22,5 +22,8 @@
 	},
 	"tns-core-modules-widgets": {
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
+	},
+	"nativescript-unit-test-runner": {
+		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-unit-test-runner/platforms/android/nativescript_unit_test_runner.aar": "c2e2783a09ca8bb92ccebe6825948f2269d12d6e"
 	}
 }

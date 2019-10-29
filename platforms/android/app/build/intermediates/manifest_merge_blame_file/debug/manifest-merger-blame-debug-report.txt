@@ -56,92 +56,94 @@
 30-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:20:3-32
 31        android:label="@string/app_name"
 31-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:21:3-35
-32        android:theme="@style/AppTheme" >
+32        android:theme="@style/AppTheme"
 32-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:22:3-34
-33        <activity
-33-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:24:3-36:14
-34            android:name="com.tns.NativeScriptActivity"
-34-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:25:4-47
-35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
-35-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:27:4-120
-36            android:label="@string/title_activity_kimera"
-36-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:26:4-49
-37            android:theme="@style/LaunchScreenTheme" >
-37-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:28:4-44
-38            <meta-data
-38-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:4-87
-39                android:name="SET_THEME_ON_LAUNCH"
-39-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:15-49
-40                android:resource="@style/AppTheme" />
-40-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:50-84
-41
-42            <intent-filter>
-42-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:32:4-35:20
-43                <action android:name="android.intent.action.MAIN" />
-43-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:33:5-57
-43-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:33:13-54
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:34:5-65
-45-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:34:15-62
-46            </intent-filter>
-47        </activity>
-48        <activity android:name="com.tns.ErrorReportActivity" />
-48-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:37:3-57
-48-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:37:13-55
-49        <activity
-49-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
-50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-50-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
-51            android:exported="false"
-51-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
-52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-52-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
-53
-54        <meta-data
-54-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
-55            android:name="com.google.android.gms.version"
-55-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
-56            android:value="@integer/google_play_services_version" />
-56-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
-57
-58        <service
-58-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:15:9-17:40
-59            android:name="com.telerik.localnotifications.NotificationActionReceiver"
-59-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:16:13-85
-60            android:exported="false" />
-60-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:17:13-37
-61
-62        <receiver
-62-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:19:9-21:40
-63            android:name="com.telerik.localnotifications.NotificationClearedReceiver"
-63-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:20:13-86
-64            android:exported="false" />
-64-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:21:13-37
-65        <receiver
-65-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:22:9-24:40
-66            android:name="com.telerik.localnotifications.NotificationAlarmReceiver"
-66-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:23:13-84
-67            android:exported="false" />
-67-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:24:13-37
-68        <receiver
-68-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:25:9-33:20
-69            android:name="com.telerik.localnotifications.NotificationRestoreReceiver"
-69-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:26:13-86
-70            android:directBootAware="true"
-70-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:27:13-43
-71            android:exported="false" >
-71-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:28:13-37
-72            <intent-filter>
-72-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:29:13-32:29
-73                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-73-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:30:17-86
-73-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:30:25-83
-74                <action android:name="android.intent.action.BOOT_COMPLETED" />
-74-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:17-79
-74-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:25-76
-75            </intent-filter>
-76        </receiver>
-77    </application>
-78
-79</manifest>
+33        android:usesCleartextTraffic="true" >
+33-->[:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:11:18-53
+34        <activity
+34-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:24:3-36:14
+35            android:name="com.tns.NativeScriptActivity"
+35-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:25:4-47
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+36-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:27:4-120
+37            android:label="@string/title_activity_kimera"
+37-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:26:4-49
+38            android:theme="@style/LaunchScreenTheme" >
+38-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:28:4-44
+39            <meta-data
+39-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:4-87
+40                android:name="SET_THEME_ON_LAUNCH"
+40-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:15-49
+41                android:resource="@style/AppTheme" />
+41-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:30:50-84
+42
+43            <intent-filter>
+43-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:32:4-35:20
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:33:5-57
+44-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:33:13-54
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:34:5-65
+46-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:34:15-62
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.tns.ErrorReportActivity" />
+49-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:37:3-57
+49-->/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:37:13-55
+50        <activity
+50-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
+58
+59        <service
+59-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:15:9-17:40
+60            android:name="com.telerik.localnotifications.NotificationActionReceiver"
+60-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:16:13-85
+61            android:exported="false" />
+61-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:17:13-37
+62
+63        <receiver
+63-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:19:9-21:40
+64            android:name="com.telerik.localnotifications.NotificationClearedReceiver"
+64-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:20:13-86
+65            android:exported="false" />
+65-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:21:13-37
+66        <receiver
+66-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:22:9-24:40
+67            android:name="com.telerik.localnotifications.NotificationAlarmReceiver"
+67-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:23:13-84
+68            android:exported="false" />
+68-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:24:13-37
+69        <receiver
+69-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:25:9-33:20
+70            android:name="com.telerik.localnotifications.NotificationRestoreReceiver"
+70-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:26:13-86
+71            android:directBootAware="true"
+71-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:27:13-43
+72            android:exported="false" >
+72-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:28:13-37
+73            <intent-filter>
+73-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:29:13-32:29
+74                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+74-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:30:17-86
+74-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:30:25-83
+75                <action android:name="android.intent.action.BOOT_COMPLETED" />
+75-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:17-79
+75-->[:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:31:25-76
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>

@@ -18,6 +18,7 @@ MERGED from [:nativescript_geolocation:] /home/ismaelc/.gradle/caches/transforms
 MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:2:1-36:12
 MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/bf93bd73af1c6013853f445305c8f2cf/fancylogger-release/AndroidManifest.xml:2:1-11:12
 MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:2:1-13:12
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.media:media:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5036e040bfb2ed21141db5907dc80a84/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -85,6 +86,8 @@ ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/plat
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:14:19-75
 uses-permission#android.permission.INTERNET
 ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:15:2-63
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:15:19-61
 application
@@ -101,6 +104,8 @@ MERGED from [com.google.android.material:material:1.0.0] /home/ismaelc/.gradle/c
 MERGED from [com.google.android.material:material:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/4b572913f1a424e7576b45966b745c44/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:14:5-34:19
 MERGED from [:app-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/5973430d2829e6f9490e4fe6125761b5/app-release/AndroidManifest.xml:14:5-34:19
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:11:5-56
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:11:5-56
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:11:5-12:19
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:11:5-12:19
 MERGED from [androidx.core:core:1.0.1] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/0ce66f28f15d428e7cb22ee7b459b6ef/core-1.0.1/AndroidManifest.xml:22:5-89
@@ -117,6 +122,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ismae
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:19:3-29
 	android:theme
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:22:3-34
+	android:usesCleartextTraffic
+		ADDED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:11:18-53
 	android:name
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml:18:3-49
 activity#com.tns.NativeScriptActivity
@@ -181,6 +188,8 @@ MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/fi
 MERGED from [:fancylogger-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/bf93bd73af1c6013853f445305c8f2cf/fancylogger-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:7:5-47
 MERGED from [:nativescript_telephony:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/9b38b3ce3aaa9cfbcbe049ac2d01ef9b/nativescript_telephony/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_unit_test_runner:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/b739651180c6fea3601a071f88e1359d/nativescript_unit_test_runner/AndroidManifest.xml:7:5-47
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:widgets-release:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/1a4281b28d655cc9d250a55088cfd92a/widgets-release/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.media:media:1.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/55c801ebe9254aadd0bc70a611ebff34/media-1.0.0/AndroidManifest.xml:20:5-44
@@ -250,6 +259,7 @@ INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/p
 	android:minSdkVersion
 		INJECTED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml
 		MERGED from /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/AndroidManifest.xml

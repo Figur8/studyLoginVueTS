@@ -32,6 +32,10 @@
         "directory": "../../node_modules/nativescript-toasty"
     },
     {
+        "name": "nativescript-unit-test-runner",
+        "directory": "../../node_modules/nativescript-unit-test-runner"
+    },
+    {
         "name": "nativescript-vue",
         "directory": "../../node_modules/nativescript-vue"
     },
