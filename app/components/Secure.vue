@@ -13,10 +13,11 @@
     import {Telephony} from 'nativescript-telephony';
 
     @Component
+
     export default class Secure extends Vue {
-        private simData: JSON;
+        private simData: any;
         private imei: string;
-        constructor() {
+        beforeCreate() {
 
             LocalNotifications.hasPermission();
 

@@ -1,4 +1,26 @@
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/tns-java-classes.js
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/vendor.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/polyfills-es5.fbc7b8163a3af6d5e025.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/33.69800f3ee7786f371446.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/16.3647031ae8ebad16f915.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/runtime.3c37eeed2119f000b256.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/9.dcd363f6b10b33d8a030.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/scripts.f72393e836125e26b85a.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/30.41c683c5fc3d8bcd8a1f.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/4.bf44b95f666cd513faee.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/10.bdfb3bf65b4d54d17c2c.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/3.d7de99208eb70ae44863.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/32.1e7be472d53dd8654453.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/6.e58fce2befdfd646d151.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/polyfills.8fbdb061b9fee8b5a878.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/13.a2c581fc3dd6e2d28124.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/14.8b7ae6e47a0d64b7e7b1.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/0.888bbd74dc77b34831c6.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/7.538a962619ceddcb73f7.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/main.dba02aeed05a3f2a5a0c.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/common.c8ae1d31d263d6562086.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/2.e60b51705ace9eb1ba73.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/11.c2b30dce86959335594d.js
+/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/assets/images/Kubernetes Dashboard_files/34.1c8f96450c89b03c07a5.js
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/runtime.js
 /home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/platforms/android/app/src/main/assets/app/bundle.js

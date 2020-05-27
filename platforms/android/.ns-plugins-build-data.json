@@ -1,4 +1,7 @@
 {
+	"nativescript-android-utils": {
+		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-android-utils/platforms/android/androidutils.aar": "d8f014a195b816b3738a011e776a53983737334f"
+	},
 	"nativescript-fontawesome": {
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-fontawesome/platforms/android/AndroidManifest.xml": "a49c6297b29f6fca5b1b61650dae089ff2181ba0",
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-fontawesome/platforms/android/README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
@@ -20,10 +23,10 @@
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-telephony/platforms/android/AndroidManifest.xml": "19bc7f757ef5ea28b0f7503973cd61b1a16cfbb5",
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-telephony/platforms/android/nativescript_telephony.aar": "57953fff35957bbf33b1af065c8edf1796526a1e"
 	},
-	"tns-core-modules-widgets": {
-		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
-	},
 	"nativescript-unit-test-runner": {
 		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/nativescript-unit-test-runner/platforms/android/nativescript_unit_test_runner.aar": "c2e2783a09ca8bb92ccebe6825948f2269d12d6e"
+	},
+	"tns-core-modules-widgets": {
+		"/home/ismaelc/Documents/estudos/nativescript/vue/studyLoginVueTS/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
 	}
 }

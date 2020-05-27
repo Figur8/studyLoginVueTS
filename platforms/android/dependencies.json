@@ -1,5 +1,9 @@
 [
     {
+        "name": "nativescript-android-utils",
+        "directory": "../../node_modules/nativescript-android-utils"
+    },
+    {
         "name": "nativescript-fontawesome",
         "directory": "../../node_modules/nativescript-fontawesome"
     },

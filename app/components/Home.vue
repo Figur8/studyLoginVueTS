@@ -5,11 +5,13 @@
             <StackLayout class="home-panel">
                 <Button text="Get My Location" @tap="getLocation" class="btn btn-primary" />
                 <Button text="Secure" class="btn btn-primary" @tap="goToSecure" ></Button>
-
+                <Button text="12312" class="btn btn-primary" @tap="goToRouterFunction" ></Button>
                 <Label :text="'Latitude: ' + lat" class="lbl" />
                 <Label :text="'Longitude: ' + lon" class="lbl" />
             </StackLayout>
+
         </ScrollView>
+
     </Page>
 </template>
 
@@ -23,11 +25,15 @@
 
     @Component
     export default class Home extends Vue {
-        private lat: string = "";
-        private lon: string = "";
+        private lat: number | null = null;
+        private lon: number | null = null;
         private speed: string = "";
         private addr: string = "";
         @Prop() public role: string;
+
+        goToRouterFunction(){
+            this.$navigator.navigate('/secure');
+        }
 
         goToSecure(){
             if(this.role == "admin") {
@@ -37,9 +43,7 @@
                     title: "User Not is admin",
                     message: "volte osado",
                     okButtonText: "exit"
-                }).then(() => {
-                    console.log("Alert dialog closed");
-                });
+                })
             };
         }
 
@@ -61,9 +65,7 @@
                     title: "TRETA",
                     message: "Usuário sem Permissão",
                     okButtonText: "OK"
-                }).then(() => {
-                    console.log("Alert dialog closed");
-                });
+                })
             };
         }
         props:{
